@@ -1,5 +1,6 @@
 package com.example.interam.veteransfinance;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -18,15 +19,6 @@ public class MainActivity extends ActionBarActivity {
 
         final TextView firstTextView = (TextView) findViewById(R.id.textView);
 
-        Button executeButton = (Button) findViewById(R.id.executeButton);
-
-        executeButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                firstTextView.setText("Executing!");
-            }
-        });
     }
 
 
@@ -47,8 +39,20 @@ public class MainActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        } else if (id == R.id.exit_app){
+
+            finish();
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onSemesterInfoClick(View view) {
+
+        Intent moveToSecondScreenIntent = new Intent(this,
+                SecondScreen.class);
+
+        startActivity(moveToSecondScreenIntent);
     }
 }
