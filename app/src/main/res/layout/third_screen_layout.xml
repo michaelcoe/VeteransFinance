@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="40sp"
-            android:text="@string/gi_bill_info"
+            android:text="@string/semester_units"
             android:gravity="center"/>
     </LinearLayout>
 
@@ -36,17 +36,18 @@
         android:id="@+id/linearLayout2">
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="150dp"
             android:layout_height="match_parent"
-            android:text="@string/gi_bill_months_left"
+            android:text="@string/spring_2015"
             android:textSize="25sp"
+            android:layout_margin="5dp"
             android:gravity="start"/>
 
-        <Spinner
-            android:layout_width="180dp"
+        <EditText
+            android:layout_width="150dp"
             android:layout_height="match_parent"
-            android:gravity="end">
-        </Spinner>
+            android:gravity="end"
+            android:inputType="number"/>
 
     </LinearLayout>
 
@@ -60,17 +61,18 @@
         android:layout_centerHorizontal="true">
 
         <TextView
-            android:layout_width="80dp"
+            android:layout_width="130dp"
             android:layout_height="match_parent"
             android:textSize="25sp"
-            android:text="@string/gi_bills_days"
+            android:text="@string/fall_2015"
+            android:layout_margin="5dp"
             android:gravity="start"/>
 
-        <Spinner
-            android:layout_width="180dp"
+        <EditText
+            android:layout_width="150dp"
             android:layout_height="match_parent"
-            android:gravity="end">
-        </Spinner>
+            android:gravity="end"
+            android:inputType="number"/>
     </LinearLayout>
 
     <LinearLayout
@@ -83,35 +85,64 @@
         android:layout_centerHorizontal="true">
 
         <TextView
-            android:layout_width="120dp"
+            android:layout_width="130dp"
             android:layout_height="match_parent"
             android:textSize="25sp"
-            android:text="@string/gi_bill_days_benefits"
+            android:text="@string/spring_2016"
             android:gravity="start"/>
 
-        <TextView
+        <EditText
             android:layout_width="150dp"
             android:layout_height="match_parent"
-            android:textSize="25sp"
-            android:gravity="center" />
+            android:inputType="number"
+            android:gravity="end" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="80dp"
         android:layout_below="@+id/linearLayout4"
+        android:padding="10dp"
+        android:id="@+id/linearLayout5"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:text="@string/fall_2016"
+            android:gravity="start"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/linearLayout5"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
-        android:id="@+id/linearLayout5">
+        android:id="@+id/linearLayout6">
 
         <Button
-            android:layout_width="200dp"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:text="@string/semester_info"
-            android:layout_gravity="center"/>
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:gravity="start"
+            android:text="@string/more_semester_info"/>
 
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="end"
+            android:text="@string/calculate_benefits"/>
     </LinearLayout>
 
 </RelativeLayout>

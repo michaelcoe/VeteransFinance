@@ -24,5 +24,11 @@
     <string name="gi_bills_days">Days:</string>
     <string name="gi_bill_days_benefits">Days of Benefits:</string>
     <string name="semester_days">Days in Semester:</string>
+    <string name="more_semester_info">More Semester Information</string>
+    <string name="semester_units">Semester Units</string>
+    <string name="spring_2015">Spring 2015:</string>
+    <string name="fall_2015">Fall 2015:</string>
+    <string name="spring_2016">Spring 2016:</string>
+    <string name="fall_2016">Fall 2016:</string>
 
 </resources>

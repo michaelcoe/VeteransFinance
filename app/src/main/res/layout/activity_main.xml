@@ -100,7 +100,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="75dp"
         android:layout_below="@+id/linearLayout4"
         android:id="@+id/linearLayout5"
         android:padding="10dp"
@@ -123,7 +123,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="75dp"
         android:layout_below="@+id/linearLayout5"
         android:id="@+id/linearLayout6"
         android:padding="10dp"
@@ -146,10 +146,9 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="50dp"
         android:layout_below="@+id/linearLayout6"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
         android:id="@+id/linearLayout7">
 
     <Button
@@ -159,6 +158,12 @@
         android:text="@string/gi_bill_info"
         android:layout_gravity="center"/>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/linearLayout7">
     </LinearLayout>
 
 </RelativeLayout>
