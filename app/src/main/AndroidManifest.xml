@@ -18,8 +18,21 @@
         </activity>
 
         <activity android:name=".SecondScreen"
-            android:label="getSemesterInfo"
+            android:label="GI Bill Info"
             android:theme="@style/AppTheme" />
+
+        <activity android:name=".ThirdScreen"
+            android:label="Semester Info"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".FourthScreen"
+            android:label="More Semester Info"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".FifthScreen"
+            android:label="Benefit Calculations"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

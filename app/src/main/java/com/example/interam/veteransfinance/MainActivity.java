@@ -46,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onSemesterInfoClick(View view) {
+    public void onGIBillInfoClick(View view) {
 
         Intent moveToSecondScreenIntent = new Intent(this,
                 SecondScreen.class);

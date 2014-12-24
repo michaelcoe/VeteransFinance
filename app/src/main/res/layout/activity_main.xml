@@ -44,7 +44,8 @@
 
         <Spinner
             android:layout_width="180dp"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:id="@+id/Uni_spinner">
         </Spinner>
     </LinearLayout>
 
@@ -76,33 +77,9 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="75dp"
         android:layout_below="@+id/linearLayout3"
         android:id="@+id/linearLayout4"
-        android:padding="10dp"
-        android:layout_centerHorizontal="true">
-
-        <TextView
-            android:layout_width="150dp"
-            android:layout_height="match_parent"
-            android:textSize="25sp"
-            android:text="@string/EligibilityPercentage"
-            android:gravity="start"/>
-
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="match_parent"
-            android:textSize="25sp"
-            android:gravity="center"
-            android:inputType="number" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:layout_below="@+id/linearLayout4"
-        android:id="@+id/linearLayout5"
         android:padding="10dp"
         android:layout_centerHorizontal="true">
 
@@ -124,8 +101,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:layout_below="@+id/linearLayout5"
-        android:id="@+id/linearLayout6"
+        android:layout_below="@+id/linearLayout4"
+        android:id="@+id/linearLayout5"
         android:padding="10dp"
         android:layout_centerHorizontal="true">
 
@@ -147,9 +124,9 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@+id/linearLayout6"
+        android:layout_below="@+id/linearLayout5"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout7">
+        android:id="@+id/linearLayout6">
 
     <Button
         android:layout_width="200dp"
