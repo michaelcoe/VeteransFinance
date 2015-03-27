@@ -35,4 +35,15 @@
     <string name="spring_2018">Spring 2018:</string>
     <string name="fall_2018">Fall 2018:</string>
 
+    <string-array name="university_array">
+        <item>UC Berkeley</item>
+        <item>UC Davis</item>
+        <item>UC Irvine</item>
+        <item>UC Los Angeles</item>
+        <item>UC Merced</item>
+        <item>UC Riverside</item>
+        <item>UC San Diego</item>
+        <item>UC Santa Barbara</item>
+    </string-array>
+
 </resources>
